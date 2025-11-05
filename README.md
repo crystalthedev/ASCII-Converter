@@ -1,2 +1,16 @@
-# ASCII-Converter
-Transform images and videos into character pixel art
+![Optimization](https://img.shields.io/badge/Optimization-Debouncing%20%7C%20Canvas%20API%20%7C%20RAF-black?style=for-the-badge&labelColor=white&color=black)
+- **Debouncing** - задержка обновления при изменении настроек
+- **willReadFrequently** - оптимизация чтения canvas
+- **requestAnimationFrame** - плавная обработка видео
+- **Отключение обработки при паузе** - экономия ресурсов
+
+![Algorithm](https://img.shields.io/badge/Algorithm-Random%20Character%20Pixelation-red?style=for-the-badge)
+- ** 1. Изображение делится на блоки (pixel size)
+- ** 2. Для каждого блока берется центральный пиксель
+- ** 3. Вычисляется яркость пикселя (luminance)
+- ** 4. Применяются контраст и яркость
+- ** 5. Выбирается **случайный символ** из набора
+- ** 6. Символ окрашивается в зависимости от режима:
+   - **Mono**: переменная прозрачность
+   - **Colored**: оригинальный цвет пикселя
+   - **Greyscale**: оттенок серого
