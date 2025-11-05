@@ -1,3 +1,7 @@
+' Посмотреть прямо сейчас - https://www.crysdev.ru/protectx/ ' 
+
+
+
 ![Optimization](https://img.shields.io/badge/Optimization-black?style=for-the-badge&labelColor=white&color=black)
 - **Debouncing** - задержка обновления при изменении настроек
 - **willReadFrequently** - оптимизация чтения canvas
